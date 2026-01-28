@@ -1,6 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+# Engineering Excellence.
+
+Leveled is an elite boutique firm dedicated to crafting high-quality, high-performance software solutions. We specialize in building robust platforms like [medicalscribe.app](https://medicalscribe.app) that redefine industries.
