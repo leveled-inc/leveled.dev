@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="hero">
+    <h1 class="page-heading">{{ site.description }}</h1>
+  </div>
+
+  <span class="section-label">Latest Intelligence</span>
+
+  <div class="grid">
+    {% for post in site.posts %}
+    <article class="tech-card post-card">
+      <span class="section-label">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+    </article>
+    {% endfor %}
+  </div>
+
+</div>
