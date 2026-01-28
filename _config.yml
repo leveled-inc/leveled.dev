@@ -30,8 +30,8 @@ github_username:  jekyll
 
 # Build settings
 # theme: minima
-sass:
-  style: compressed
+# sass:
+#   style: compressed
 plugins:
   - jekyll-feed
 
